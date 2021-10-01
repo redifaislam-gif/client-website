@@ -1,0 +1,17 @@
+@media only screen and (max-width:1500px){
+	div.col-lg-6.phn {
+    display: none;
+}
+	
+	div.header-content {
+    padding: 250px 108px 250px 108px;
+}
+div.testi1-content {
+    padding: 120px 100px 50px 100px;
+}
+
+div.col-lg-3.col-md-6.col-sm-12.foter-col11.foter-border img {
+    width: 200px;
+}
+}
+
