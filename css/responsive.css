@@ -15,3 +15,13 @@ div.col-lg-3.col-md-6.col-sm-12.foter-col11.foter-border img {
 }
 }
 
+@media only screen and (max-width:1300px){
+	
+	a.btn.btn-outline-warning.btn-lg {
+    
+    display: none;
+}
+div.contact {
+    display: none;
+}
+}
