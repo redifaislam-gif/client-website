@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 	function openNav1() {
 	  
-	  document.getElementById("myNav1").style.width="90%";
+	  document.getElementById("myNav1").style.width="350px";
   }
   
   

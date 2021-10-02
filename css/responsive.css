@@ -13,11 +13,27 @@ div.testi1-content {
 div.col-lg-3.col-md-6.col-sm-12.foter-col11.foter-border img {
     width: 200px;
 }
+
+
+div.contact {
+   
+    margin-left: 0px;
+
+}
+}
+@media only screen and (max-width:1343px){
+	
+	div.phn {
+    display: none;
 }
 
+}
 @media only screen and (max-width:1300px){
 	
-	div.col-lg-7.phn {
+	div.phn {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
     display: none;
 }
 div.new {
@@ -49,9 +65,17 @@ div.testi1-content h2 {
 div.testi1-content.text-center p {
     font-size: 14px;
 }
-div.contact{
-    display: none;
+div.contact {
+    margin-left: 402px;
+    margin-top: -55px;
 }
+
+	div.mobile span{
+		display:block;
+		
+	}
+
+
 }
 
 @media only screen and (max-width:767px){
@@ -63,12 +87,17 @@ div.contact{
 div.testi1-content {
     padding: 120px 0px 50px 0px;
 }
-	
+	div.contact {
+    margin-left: 202px;
+ 
+}
 }
 
 
 @media only screen and (max-width:360px){
-	
+	div.contact {
+   display:none;
+}
 	section.header h2 {
     font-size: 30px;
     
