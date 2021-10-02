@@ -138,8 +138,8 @@ color:black;
 	top:0;
 	width:100%;
 	height:100vh;
-	background:#000
-	url('../img/them/f59876d316abc628202df9012706d68f.gif') no-repeat center;
+	background:#ffffff
+	url('../img/loading2.gif') no-repeat center;
 	z-index:999999;
 }
 html{
