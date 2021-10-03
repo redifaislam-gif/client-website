@@ -43,6 +43,14 @@ div.new {
 img.logo {
     width: 200px;
 }
+div.foter-top1 h2 {
+  
+    font-size: 18px;
+
+}
+div.foter-top1 ul a {
+font-size: 13px;}
+
 }
 
 @media only screen and (max-width:991px){
@@ -74,12 +82,22 @@ div.contact {
 		display:block;
 		
 	}
+	.footer-section .col{
 
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 }
 
-@media only screen and (max-width:767px){
-	
+@media only screen and (max-width:768px){
+	div.container {
+    margin-top: 6px;
+}
+div.contact {
+    margin-left: 202px;
+    margin-top: -62px;
+}
 	div.header-content {
     padding: 120px 8px 120px 0px;
 }
@@ -87,13 +105,16 @@ div.contact {
 div.testi1-content {
     padding: 120px 0px 50px 0px;
 }
-	div.contact {
-    margin-left: 202px;
- 
+	
+}
+@media only screen and (max-width:663px){
+
+.footer-section .col{
+
+  flex: 0 0 100%;
+    max-width: 100%;
 }
 }
-
-
 @media only screen and (max-width:360px){
 	div.contact {
    display:none;
