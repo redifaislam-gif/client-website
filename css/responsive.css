@@ -66,7 +66,7 @@ section.header p {
 }
 div.testi1-content h2 {
    
-    font-size: 36px;
+    font-size: 30px;
    
 }
 
@@ -88,9 +88,16 @@ div.contact {
     max-width: 50%;
 }
 
+
+div.test-box3{
+	display:none;
+}
+
 }
 
 @media only screen and (max-width:768px){
+	
+	
 	div.container {
     margin-top: 6px;
 }
@@ -105,16 +112,40 @@ div.contact {
 div.testi1-content {
     padding: 120px 0px 50px 0px;
 }
+	div.mobile span {
+    right: 20px;
+    top: 18px;
 	
 }
-@media only screen and (max-width:663px){
+}
 
+@media only screen and (max-width:767px){
+	div.test-box2{
+	display:none;
+}
+		div.testi1-content-box {
+  
+   
+    margin: 46px 82px;
+}
+}
+
+@media only screen and (max-width:663px){
+	
 .footer-section .col{
 
   flex: 0 0 100%;
     max-width: 100%;
 }
 }
+@media only screen and (max-width:600px){
+	
+	div.testi1-content-box {
+    margin: 20px 15px;
+}
+}
+
+
 @media only screen and (max-width:360px){
 	div.contact {
    display:none;

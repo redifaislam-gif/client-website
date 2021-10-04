@@ -322,12 +322,35 @@ position: relative;
 
             
 
+            .slick-dots li button:before {
+               
+                font-size: 11px;
+                line-height: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 80px;
+                content: '•';
+                text-align: center;
+                opacity: .25;
+                color:#97A3B0;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .slick-dots li.slick-active button:before {
+                opacity: .75;
+                color:#082760;
+            }
 
 
 
 
 .footer-section
 {
+
+    
     position:relative;
     background-image:url('../img/footer-bg 3.png');
     background-size:cover; 
@@ -335,8 +358,9 @@ position: relative;
     max-width:100%;
   background-position:center;
   background-repeat:no-repeat;
-margin-top:50px;
+margin-top:100px;
   padding:53px 0px 43px 0px;
+  margin-bottom:0px;
 }
 
 
@@ -393,6 +417,21 @@ margin-top:30px;
 
 }
 
+.owl-carousel .owl-item img {
+    display: block;
+     width:67px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 60px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
 
 
 .carousel-indicators [data-bs-target] {
