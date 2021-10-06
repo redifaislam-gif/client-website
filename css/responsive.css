@@ -78,7 +78,11 @@ font-size: 13px;}
     height: 220px;
 
 }
-	
+	.slider-item {
+	position: absolute;
+  max-width:900px;
+  min-height:280px;
+  padding: 20px 10px 25px 20px;
 	
 	
 }
