@@ -23,7 +23,9 @@ color:#97A3B0;
 
 
 }
-
+img {
+    max-width: 100%;
+}
 .container{
 	max-width:1680px;
 	margin:0 auto;  

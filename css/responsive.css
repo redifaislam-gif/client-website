@@ -47,6 +47,17 @@ div.contact {
 	div.phn {
     display: none;
 }
+div.new {
+  
+    display: none;
+}
+div.mobile span{
+		display:block;
+		
+	}
+	div.mobile span {
+    right: 20px;
+    top: 18px;
 
 }
 @media only screen and (max-width:1300px){
@@ -57,10 +68,10 @@ div.contact {
     justify-content: center;
     display: none;
 }
-div.new {
-  
-    display: none;
+header {
+    padding-bottom: 17px;
 }
+
 img.logo {
     width: 200px;
 }
@@ -71,6 +82,9 @@ div.foter-top1 h2 {
 }
 div.foter-top1 ul a {
 font-size: 13px;}
+
+
+
 }
 @media only screen and (max-width:1073px){
 	div.slider-item {
@@ -78,7 +92,7 @@ font-size: 13px;}
     height: 220px;
 
 }
-	.slider-item {
+	div.slider-item {
 	position: absolute;
   max-width:900px;
   min-height:280px;
@@ -106,10 +120,7 @@ div.contact {
     margin-top: -55px;
 }
 
-	div.mobile span{
-		display:block;
-		
-	}
+	
 	.footer-section .col{
 
     flex: 0 0 50%;
@@ -294,19 +305,27 @@ div.slider-item {
     font-size: 30px;
     
 }
-
+	div.slider-item {
+	position: absolute;
+  max-width:900px;
+  min-height:300px;
+  padding: 20px 10px 25px 20px;
+	
+	
+}
 section.header p {
     font-size: 14px;
+}
+div.slider-item {
+    max-width:228px;
+    height: 300px;
+    padding: 26px 7px 350px 7px;
 }
 	
 }
 @media only screen and (max-width:352px){
 	
-div.slider-item {
-    max-width:228px;
-    height: 200px;
-    padding: 26px 7px 350px 7px;
-}
+
 
 }
 
