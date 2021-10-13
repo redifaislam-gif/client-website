@@ -425,6 +425,239 @@ padding:28px 0px 0px 0px;
     margin-top: -19px;
 }
 
+.container2{
+	
+	max-width:1680px;
+	margin:0 auto;  
+	overflow:hidden;
+	padding:0px 20px;
+margin-top:60px;
+}
 
+img{
+	max-width:100%;
+}
+
+.slider-wrap {
+
+min-height:30vh;
+  z-index:0;
+}
+.slider-wrap .slider {
+  position: relative;
+  max-width:1920px;
+ min-height:60vh;
+  left:0px;
+margin-top:100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+
+}
+.fast-letter2 h3{
+  width: 50px;
+  height: 50px;
+  background: #00205c;
+  border-radius: 50%;
+  font-size: 21px;
+  color: white;
+  padding: 13px 17px;
+  font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+  margin-top: 5px;
+}
+
+.testimonial2{
+	
+	margin-top:-120px;
+}
+.header-content h2{
+	
+	color: #00205C;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+    padding-bottom: 20px;
+}
+
+.slider-item {
+	position: absolute;
+  max-width:900px;
+  min-height:200px;
+  padding: 20px 10px 25px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  opacity: 0;
+  z-index:0;
+  box-shadow: 0px 5px 20px #08276042;
+
+}
+
+.name2{
+	    color: #082760;
+    font-size: 19px;
+    margin-top: 8px;
+    font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+    margin-left: 0px;
+}
+.slider-item .animation-card_image {
+  max-width: 60px;
+  max-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 9px rgba(241, 241, 244, 0.72);
+  background-color: #ffffff;
+}
+.slider-item .animation-card_image img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.slider-item .animation-card_content {
+  width: 100%;
+line-height: 28px;
+  margin-left: 26px;
+
+}
+.slider-item .animation-card_content .animation-card_content_title {
+  color: #4a4545;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  line-height: 24px;
+  margin: 0;
+}
+.slider-item .animation-card_content .animation-card_content_description {
+  color: #696d74;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 10px 0 0 0;
+}
+.slider-item .animation-card_content .animation-card_content_city {
+  font-size: 11px;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #696d74;
+}
+
+
+.hero{
+  width:100%;
+  height:80vh;
+ 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.fast-letter{
+  width: 50px;
+    height: 50px;
+    background: #00205c;
+    border-radius: 50%;
+    font-size: 21px;
+    color: white;
+    padding: 13px 17px;
+    font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+    margin-top: 5px;
+}
+.Name-title h2{
+  color: #082760;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+  margin-left: 16px;
+  padding: 10px 400px 10px 0px;
+}
+
+.slide-box{
+  position:relative;
+height:320px;
+padding:30px 35px 30px 25px;
+color:#777;
+line-height:30px;
+box-sizing: border-box;
+
+
+}
+
+.slide-box p{
+  font-size: 16px;
+  color: #97A3B0;
+  line-height: 30px;
+  position: relative;
+  margin-top: -30px;
+
+
+  margin-left: 10px;
+  font-family: 'helveticaregular';
+}
+
+.review-box{
+  position:relative;
+  width:90%;
+  max-width:900px;
+  height:330px;
+  border-radius:10px;
+  box-shadow: -10px 10px 40px rgb(0 0 0 / 7%);
+ 
+  padding:10px 10px 10px 20px;
+  overflow:hidden;
+}
+.profile{
+  display:flex;
+  align-items:center;
+margin-bottom:40px;
+
+}
+
+.profile img{
+margin-right:20px;
+}
+.profile H3{
+
+  font-size:26px;
+  color:#f44336;
+  margin-bottom:8px;
+}
+#slide{
+  width:100%;
+  padding-right:60px;
+  box-sizing:border-box;
+  position:absolute;
+  top:0;
+  left:0;
+  transition: 0.5s;
+}
+.sidebar{
+  width: 60px;
+  height: 100%;
+  box-sizing: border-box;
+
+  position: absolute;
+  right: -9px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar img{
+  width: 41px;
+  padding: 11px;
+  background-color: #00205C;
+   border-radius:5px 0px 0px 5px;
+  cursor: pointer;
+  margin: 4px;
+}
 
 
