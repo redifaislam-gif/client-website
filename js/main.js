@@ -1,4 +1,33 @@
 
+
+  var slide = document.getElementById("slide");
+  var prev = document.getElementById("prev");
+  var next = document.getElementById("next");
+  
+  let x =0;
+  prev.onclick = function(){
+      if(x > "-10500"){
+        x = x -320;
+        slide.style.top = x + "px";
+      }
+
+      next.onclick = function(){
+        if(x < 0){
+          x = x + 320;
+          slide.style.top = x + "px";
+        }
+    
+  
+  }
+
+
+
+
+
+
+
+
+
 var cards = $('#card-slider .slider-item').toArray();
 
 startAnim(cards);
@@ -96,7 +125,7 @@ $(document).ready(function(){
 	  
 	  document.getElementById("myNav1").style.width="0%";
   }
+}
   
 
- 
 

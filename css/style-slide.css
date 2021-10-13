@@ -28,6 +28,18 @@ margin-top:100px;
   flex-wrap:wrap;
 
 }
+.fast-letter2 h3{
+  width: 50px;
+  height: 50px;
+  background: #00205c;
+  border-radius: 50%;
+  font-size: 21px;
+  color: white;
+  padding: 13px 17px;
+  font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+  margin-top: 5px;
+}
+
 .testimonial2{
 	
 	margin-top:-120px;
@@ -49,8 +61,6 @@ margin-top:100px;
   border-radius: 10px;
   background-color: #ffffff;
   display: flex;
-
-  
   opacity: 0;
   z-index:0;
   box-shadow: 0px 5px 20px #08276042;
@@ -110,3 +120,120 @@ line-height: 28px;
   text-transform: uppercase;
   color: #696d74;
 }
+
+
+.hero{
+  width:100%;
+  height:80vh;
+ 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.fast-letter{
+  width: 50px;
+    height: 50px;
+    background: #00205c;
+    border-radius: 50%;
+    font-size: 21px;
+    color: white;
+    padding: 13px 17px;
+    font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+    margin-top: 5px;
+}
+.Name-title h2{
+  color: #082760;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: 'Helvetica-Neue-LT-Std-95-Black_22551';
+  margin-left: 16px;
+  padding: 10px 400px 10px 0px;
+}
+
+.slide-box{
+  position:relative;
+height:320px;
+padding:30px 35px 30px 25px;
+color:#777;
+line-height:30px;
+box-sizing: border-box;
+
+
+}
+
+.slide-box p{
+  font-size: 16px;
+  color: #97A3B0;
+  line-height: 30px;
+  position: relative;
+  margin-top: -30px;
+
+
+  margin-left: 10px;
+  font-family: 'helveticaregular';
+}
+
+.review-box{
+  position:relative;
+  width:90%;
+  max-width:900px;
+  height:330px;
+  border-radius:10px;
+  box-shadow: -10px 10px 40px rgb(0 0 0 / 7%);
+ 
+  padding:10px 10px 10px 20px;
+  overflow:hidden;
+}
+.profile{
+  display:flex;
+  align-items:center;
+margin-bottom:40px;
+
+}
+
+.profile img{
+margin-right:20px;
+}
+.profile H3{
+
+  font-size:26px;
+  color:#f44336;
+  margin-bottom:8px;
+}
+#slide{
+  width:100%;
+  padding-right:60px;
+  box-sizing:border-box;
+  position:absolute;
+  top:0;
+  left:0;
+  transition: 0.5s;
+}
+.sidebar{
+  width: 60px;
+  height: 100%;
+  box-sizing: border-box;
+
+  position: absolute;
+  right: -9px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar img{
+  width: 41px;
+  padding: 11px;
+  background-color: #00205C;
+   border-radius:5px 0px 0px 5px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+
+
+
