@@ -59,7 +59,7 @@ function sortArray(array) {
 
 
 
-	function openNav1() {
+		function openNav1() {
 	  
 	  document.getElementById("myNav1").style.width="300px";
   }
