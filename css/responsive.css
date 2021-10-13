@@ -398,8 +398,8 @@ section.header p {
     font-size: 14px;
 }
 div.slider-item {
-    max-width:228px;
-    height: 300px;
+    max-width: 228px;
+    height: 429px;
     padding: 26px 7px 350px 7px;
 }
 div.slide-box p {
@@ -407,7 +407,10 @@ div.slide-box p {
     line-height: 18px;
     margin-top: -32px;
 }
-	
+div.slider-wrap {
+    min-height: 130vh;
+    z-index: 0;
+}	
 }
 @media only screen and (max-width:352px){
 	
