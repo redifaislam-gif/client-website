@@ -27,7 +27,6 @@
 
 
 
-
 var cards = $('#card-slider .slider-item').toArray();
 
 startAnim(cards);
@@ -55,11 +54,10 @@ function sortArray(array) {
     },3000)
 }
 
+  
 
 
-
-
-		function openNav1() {
+	function openNav1() {
 	  
 	  document.getElementById("myNav1").style.width="300px";
   }
@@ -69,6 +67,7 @@ function sortArray(array) {
 	  
 	  document.getElementById("myNav1").style.width="0%";
   }
+  
   
 
 
