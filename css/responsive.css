@@ -275,9 +275,10 @@ div.slide-box {
 
 
 .name2 {
-    margin-top: 9px;
+margin-top:-15px;
     font-size: 16px;
     margin-left: 0px;
+	
 }
 div.slider-item .animation-card_content {
   width: 100%;
@@ -292,7 +293,7 @@ div.fast-letter2 h3 {
     padding: 10px 14px;
     margin-top: 6px;
 }
-h2.fast-letter{
+.fast-letter{
     width: 40px;
     height: 40px;
     font-size: 17px;
@@ -397,8 +398,8 @@ section.header p {
     font-size: 14px;
 }
 div.slider-item {
-    max-width: 228px;
-    height: 429px;
+    max-width:228px;
+    height: 300px;
     padding: 26px 7px 350px 7px;
 }
 div.slide-box p {
@@ -406,10 +407,7 @@ div.slide-box p {
     line-height: 18px;
     margin-top: -32px;
 }
-div.slider-wrap {
-    min-height: 130vh;
-    z-index: 0;
-}	
+	
 }
 @media only screen and (max-width:352px){
 	
